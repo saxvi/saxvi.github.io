@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-family: "Raleway", Raleway, sans-serif;
 }
 .fh5co-nav ul li a {
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 2px;
   font-size: 12px;
   padding: 30px 10px;
@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 .feature-center h3 {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 15px;
   letter-spacing: 1px;
   font-weight: 600;
@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .work .work-grid .inner .desc h3 {
   font-size: 14px;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-bottom: 5px;
   font-weight: bold;
   line-height: 24px;
@@ -501,7 +501,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .work .work-grid .inner .desc .cat {
   font-size: 11px;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 @media screen and (max-width: 768px) {
   .work .work-grid .inner .desc .cat {
@@ -571,7 +571,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: 1px;
   color: #70947b;
 }
@@ -586,7 +586,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-heading span {
   display: block;
   margin-bottom: 10px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 12px;
   letter-spacing: 2px;
   font-family: "Raleway", Raleway, sans-serif;
@@ -634,7 +634,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .author .desc span {
   font-size: 13px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   display: block;
   margin-bottom: 20px;
   letter-spacing: 1px;
@@ -727,7 +727,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-weight: bold;
   font-size: 15px;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 #fh5co-footer .copyright .block {
   display: block;
@@ -890,12 +890,12 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: rotate(-180deg);
 }
 
-.uppercase {
+.lowercase {
   font-size: 14px;
   color: #000;
   margin-bottom: 10px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .gototop {
@@ -956,7 +956,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 2px;
   color: #252525;
   font: bold 14px/.4 Helvetica;
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-indent: -55px;
   background: #252525;
   transition: all .2s ease-out;
@@ -1279,7 +1279,7 @@ blockquote .person cite {
   margin-bottom: 2.5em;
 }
 .role h3 {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 12px;
   letter-spacing: 2px;
   margin-bottom: 20px;
