@@ -76,15 +76,14 @@
 		<div class="container">
 			<div class="row top-line animate-box">
 				<div class="col-md-6 col-md-offset-3 col-md-push-2 text-left fh5co-heading">
-					<h2>ui/ux concept project</h2>
-					<p> in this project, the task was to design an ergonomic coffee grinder from the thumbnailing process to the first prototype. this was one of my first attempts at product design, and it provided valuable insight into the process of prototyping. </p>
+					<h2>open up!</h2>
+					<p>finished in gouache and ink.</p>
 					
 					<div class="role">
 						<h3>roles</h3>
 						<ul>
 							<li>illustration</li>
-							<li>product design</li>
-							<li>prototyping</li>
+							<li>traditional art</li>
 						</ul>
 					</div>
 
@@ -93,25 +92,17 @@
 			</div>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<p class="animate-box"><img src="images/grinder2ortho.jpg" class="img-responsive"></p>
-					<p class="animate-box"><img src="images/grinder1ortho.jpg" class="img-responsive"></p>
-					<p class="animate-box"><img src="images/grinder3ortho.jpg" class="img-responsive"></p>
-					<div class="testimony animate-box">
-						<p>
-							<p>after wiring the rows and columns of keys to the microcontroller, i checked that everything was functional, and then started cosmetic assembly.</p>
-						</p>
-					</div>	
-                    <p class="animate-box"><img src="images/grinderthumbnails.jpg" class="img-responsive"></p>
+					<p class="animate-box"><img src="images/handsbox.jpg" class="img-responsive"></p>
 
 					<div class="row row-pt-md portfolio-navigation">
 						<div class="col-xs-4 text-left">
-							<a href="chw60_detail.html" class="btn btn-primary btn-outline"><i class="icon-chevron-left"></i>previous </a>
+							<a href="grinders_detail.html" class="btn btn-primary btn-outline"><i class="icon-chevron-left"></i>previous </a>
 						</div>
 						<div class="col-xs-4 text-center">
 							<a href="index.html" class="btn btn-primary btn-outline"><i class="icon-grid2"></i>home</a>
 						</div>
 						<div class="col-xs-4 text-right">
-							<a href="sketches_detail.html" class="btn btn-primary btn-outline">next<i class="icon-chevron-right"></i></a>
+							<a href="techsketch_detail.html" class="btn btn-primary btn-outline">next<i class="icon-chevron-right"></i></a>
 						</div>
 					</div>
 				</div>
