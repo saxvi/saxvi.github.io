@@ -1,15 +1,11 @@
 
-TITLE: 
-Shift - 100% Fully Responsive Free HTML5 Bootstrap Template
+TITLE: sadie mothershed portfolio
 
-AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+AUTHOR: site skeleton by freehtml5, modifications, customizations, and additions by sadie mothershed
 
-Website: http://freehtml5.co/
-Twitter: http://twitter.com/fh5co
-Facebook: http://facebook.com/fh5co
-
-
+template found at:
+    Website: http://freehtml5.co/
+    
 CREDITS:
 
 Bootstrap
@@ -38,8 +34,4 @@ http://daneden.me/animate
 
 jQuery Waypoint
 https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
-
-Demo Images:
-http://unsplash.com
-http://blog.gessato.com
 
