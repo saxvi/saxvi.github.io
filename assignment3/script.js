@@ -2,6 +2,11 @@ let allMovies = [];
 
 //Define a movie class with parameters title (string), rating (number) and haveWatched (boolean)
 class Movie {
+    constructor(title, rating, haveWatched) {
+        this.title = title;
+        this.rating = rating;
+        this.haveWatched = haveWatched;
+    }
 
 }
 
@@ -14,20 +19,37 @@ let addMovie = (movie) => {
 //print out to console in a correct format
 //print out the total number of movies in allMovies array
 let printMovies = () => {
-
+    var count = 0;
+    for (var i = 0; i < allMovies.length; i++) {
+        count++;
+        console.log(i.title);
+    }
+    console.log(count);
 }
 
 
 //print out to console, only the movies that has a rating higher than rating(argument)
 //print out the total number of matches
 let highRatings = (rating) => {
-
+    for (var i = 0; i < allMovies.length; i++) {
+        if (i.rating < rating) {
+            console.log(i.title);
+        }
+    }
 }
 
 
 //Toggle the 'haveWatched' property of the specified movie 
 let changeWatched = (title) => {
-
+    for (var i = 0; i < allMovies.length; i++) {
+        if (i.title == title) {
+            if (i.haveWatched == true) {
+                i.haveWatched = false;
+            } else {
+                i.haveWatched = true;
+            }
+        }
+    }
 }
 
 
