@@ -11,44 +11,52 @@ class Movie {
 
 //add a movie OBJECT to the allMovies array
 let addMovie = (movie) => {
-
+    allMovies.length++;
+    allMovies[allMovies.length - 1] = movie;
+    console.log("A new movie is added");
 }
 
 //iterate through all elements of allMovies array
 //print out to console in a correct format
 //print out the total number of movies in allMovies array
 let printMovies = () => {
-    var count = 0;
+    console.log("Printing all movies...")
     for (var i = 0; i < allMovies.length; i++) {
-        count++;
-        console.log(i.title());
+        console.log(allMovies[i].title + ", rating of " + allMovies[i].rating
+        + " havewatched: " + allMovies[i].haveWatched);
     }
-    console.log(count);
+    console.log("\nYou have " + allMovies.length + " movies in total.")
 }
 
 
 //print out to console, only the movies that has a rating higher than rating(argument)
 //print out the total number of matches
 let highRatings = (rating) => {
+    console.log("printing movie that has a higher rating than " + rating)
+    var count = 0;
     for (var i = 0; i < allMovies.length; i++) {
-        if (i.rating() < rating) {
-            console.log(i.title());
+        if (allMovies[i].rating > rating) {
+            count++;
+            console.log(allMovies[i].title + " has a rating of "
+            + allMovies[i].rating);
         }
     }
+    console.log("\nIn total, there are " + count + " matches");
 }
 
 
 //Toggle the 'haveWatched' property of the specified movie 
 let changeWatched = (title) => {
     for (var i = 0; i < allMovies.length; i++) {
-        if (i.title() == title) {
-            if (i.haveWatched() == true) {
-                i.haveWatched() = false;
+        if (allMovies[i].title == title) {
+            if (allMovies[i].haveWatched== true) {
+                allMovies[i].haveWatched = false;
             } else {
-                i.haveWatched() = true;
+                allMovies[i].haveWatched = true;
             }
         }
     }
+    console.log("changing the status of the movie...");
 }
 
 
