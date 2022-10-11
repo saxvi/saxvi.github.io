@@ -7,7 +7,6 @@ class Movie {
         this.rating = rating;
         this.haveWatched = haveWatched;
     }
-
 }
 
 //add a movie OBJECT to the allMovies array
@@ -22,7 +21,7 @@ let printMovies = () => {
     var count = 0;
     for (var i = 0; i < allMovies.length; i++) {
         count++;
-        console.log(i.title);
+        console.log(i.title());
     }
     console.log(count);
 }
@@ -32,8 +31,8 @@ let printMovies = () => {
 //print out the total number of matches
 let highRatings = (rating) => {
     for (var i = 0; i < allMovies.length; i++) {
-        if (i.rating < rating) {
-            console.log(i.title);
+        if (i.rating() < rating) {
+            console.log(i.title());
         }
     }
 }
@@ -42,11 +41,11 @@ let highRatings = (rating) => {
 //Toggle the 'haveWatched' property of the specified movie 
 let changeWatched = (title) => {
     for (var i = 0; i < allMovies.length; i++) {
-        if (i.title == title) {
-            if (i.haveWatched == true) {
-                i.haveWatched = false;
+        if (i.title() == title) {
+            if (i.haveWatched() == true) {
+                i.haveWatched() = false;
             } else {
-                i.haveWatched = true;
+                i.haveWatched() = true;
             }
         }
     }
